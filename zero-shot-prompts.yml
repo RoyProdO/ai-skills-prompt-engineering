@@ -1,0 +1,70 @@
+# Zero-Shot Prompt Practice
+# Email Writing
+prompt: "Write a professional email to stakeholders explaining a 2-week delay in the WhatsApp integration project. Include an apology, brief explanation of technical challenges, revised timeline, and next steps. Keep the tone professional but reassuring."
+ai_response: "Subject: Update on WhatsApp Integration Project – Revised Timeline
+
+Dear [Stakeholders' Names],
+
+I hope this message finds you well.
+
+I’m writing to inform you of a two-week delay in the WhatsApp integration project. We sincerely apologize for this shift in the timeline and understand the importance of timely delivery for your operations.
+
+The delay is due to unforeseen technical challenges encountered during the integration phase, specifically around message synchronization and API stability across different environments. Our development team is actively working to resolve these issues and ensure the solution meets our quality and reliability standards.
+
+Revised Timeline:
+The new expected completion date is [Insert New Date], with final testing and deployment scheduled for the following week.
+
+Next Steps:
+
+We are implementing additional testing protocols to ensure long-term stability.
+A progress review will be shared by [Insert Midpoint Date] to keep you updated.
+We remain committed to delivering a robust and secure solution that aligns with your expectations.
+We appreciate your understanding and continued support. Please feel free to reach out if you have any questions or would like to schedule a check-in.
+
+Warm regards,
+[Your Full Name]
+[Your Job Title]
+[Your Company Name]
+[Your Contact Information]"
+
+# Meeting Summary
+prompt: "Create a concise meeting summary with the following structure: Key Decisions, Action Items (with owners and deadlines), and Next Meeting Date. Write it for a project status meeting about implementing WhatsApp customer service capabilities."
+ai_response: "Meeting Summary – WhatsApp Customer Service Project
+Date: July 15, 2025
+Attendees: [List of participants, e.g., Project Manager, Dev Lead, Marketing Rep, etc.]
+
+Key Decisions
+Finalized scope for Phase 1: inbound customer messaging and automated responses.
+Agreed to prioritize integration with existing CRM before chatbot deployment.
+Approved use of WhatsApp Business API for initial rollout.
+Action Items
+Task	Owner	Deadline
+Define detailed API integration requirements	Dev Team Lead (Aisha)	July 18, 2025
+Confirm CRM compatibility and data flow	IT Systems Analyst (Raj)	July 19, 2025
+Draft customer communication plan for rollout	Marketing Lead (Sophie)	July 22, 2025
+Schedule WhatsApp Business API setup with vendor	Project Manager (Daniel)	July 17, 2025
+Next Meeting Date
+July 23, 2025 – Progress review and Phase 2 planning"
+
+# Technical Documentation:
+prompt: "Write a brief technical requirements document for integrating WhatsApp Business API into an existing customer service system. Include sections for: Overview, Technical Requirements, Integration Points, and Success Criteria. Use bullet points and keep it under 300 words."
+ai_response: "Overview
+The goal is to integrate WhatsApp Business API into the current customer service platform to enable real-time messaging, improve customer engagement, and streamline support operations.
+
+Technical Requirements
+Access to WhatsApp Business API via approved provider (e.g., Meta or authorized BSP).
+Secure API authentication using OAuth 2.0 or token-based access.
+Support for message templates, session messages, and media attachments.
+Webhook configuration for real-time message delivery and status updates.
+Compliance with GDPR and local data protection regulations.
+Integration Points
+CRM System: Sync customer profiles and conversation history.
+Ticketing System: Link WhatsApp messages to support tickets.
+Notification Service: Trigger automated responses and alerts.
+Analytics Dashboard: Track message volume, response times, and customer satisfaction.
+Success Criteria
+WhatsApp messaging fully operational within the customer service platform.
+99% message delivery success rate during testing.
+Response time reduced by at least 30% compared to email support.
+Positive feedback from pilot users and support agents.
+System meets all security and compliance standards."
